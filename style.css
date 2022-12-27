@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tbar {
+    width: 179px;
+    background-color: bisque;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+}
+
+.tbar nav {
+    padding: 2px;
+}
+
+.tbar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.tbar nav li {
+    list-style: none;
+    font-size: 24px;
+    padding: 33px;
+}
+
+.tbar nav li a:hover{
+    color: blue;
+}
+
+.main {
+    width: 85vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    margin: 102px auto;
+    height: 78vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic img {
+    height: 78vh;
+}
+
+.devloper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello {
+    font-size: 50px;
+
+
+}
+
+.name {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+
+
+}
+
+.about {
+    font-size: 50px;
+
+
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 9px;
+    border-radius: 17px;
+    color: white;
+    background-color: #4f46a3;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: #4f46a3;
+    background-color: white;
+
+}
+
+.contactForm{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.contactForm h1{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+}
